@@ -1,0 +1,94 @@
+ *{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Gilroy';
+ }
+ 
+ body {
+ height: 100%;
+ width: 100%;
+ }
+ .game{
+    width: 1200px;
+    height: 100%;
+    border: 3px solid black;
+    margin-left: 170px
+ }
+ .first{
+    height: 150px;
+    display: flex;
+    width: 100%;
+ }
+ div{
+    height: 150px;
+    width: 155px;
+    border: 1px solid black;
+    text-align: center;
+
+ }
+ .a{
+    background-color: white;
+ } 
+ .b{
+    background: #000;
+ }
+ h1 img{
+    font-size: 40px;
+    height: 90px;
+    padding-top: 20px;
+    text-align: center;
+ }
+ h1{
+    margin-left: 40%;
+ }
+ i{
+    padding-top: 40px;
+
+ }
+
+ .a i{
+    font-size: 30px;
+    color: black;
+    font-size: 70px;
+ }
+
+ .b i{
+    font-size: 30px;
+    color: white;
+    font-size: 70px;
+ }
+
+ @media (max-width:400px) {
+    .game{
+        width: 380px;
+        margin-left: 5px;
+        height: 100%;
+    }
+    h1{
+        font-size: 20px;
+        margin-left: 30%;
+    }
+    h1 img{
+        height: 50px;
+    }
+    div{
+        height: 60px;
+        width: 150px;
+    }
+    i{
+        font-size: 10px;
+        padding-top: 15px;
+    }
+    .first{
+        height: 60px;
+    }
+    .b i{
+        color: white;
+        font-size: 25px;
+     }
+     .a i{
+        color: black;
+        font-size: 25px;
+     }
+ }
